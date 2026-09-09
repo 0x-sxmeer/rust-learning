@@ -20,7 +20,7 @@ My structured path from Python developer to professional Rust developer.
 
 ```bash
 # Clone the repo
-git clone git@github.com:YOUR_USERNAME/rust-learning.git
+git clone https://github.com/0x-sameer/rust-learning.git
 cd rust-learning
 
 # Run a specific exercise
