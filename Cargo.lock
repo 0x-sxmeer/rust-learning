@@ -3,9 +3,253 @@
 version = 4
 
 [[package]]
+name = "advanced-functions"
+version = "0.1.0"
+
+[[package]]
+name = "advanced-traits"
+version = "0.1.0"
+
+[[package]]
+name = "advanced-types"
+version = "0.1.0"
+
+[[package]]
+name = "all-the-places"
+version = "0.1.0"
+
+[[package]]
+name = "async-traits"
+version = "0.1.0"
+
+[[package]]
+name = "box-heap"
+version = "0.1.0"
+
+[[package]]
+name = "characteristics-of-oo"
+version = "0.1.0"
+
+[[package]]
+name = "closures"
+version = "0.1.0"
+
+[[package]]
+name = "concurrency-with-async"
+version = "0.1.0"
+
+[[package]]
+name = "control-flow"
+version = "0.1.0"
+
+[[package]]
 name = "data-types"
 version = "0.1.0"
 
 [[package]]
+name = "defining-enums"
+version = "0.1.0"
+
+[[package]]
+name = "defining-structs"
+version = "0.1.0"
+
+[[package]]
+name = "deref-trait"
+version = "0.1.0"
+
+[[package]]
+name = "drop-trait"
+version = "0.1.0"
+
+[[package]]
+name = "example-program"
+version = "0.1.0"
+
+[[package]]
+name = "functions"
+version = "0.1.0"
+
+[[package]]
+name = "futures-and-syntax"
+version = "0.1.0"
+
+[[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
+name = "guessing-game"
+version = "0.1.0"
+
+[[package]]
+name = "hashmaps"
+version = "0.1.0"
+
+[[package]]
+name = "if-let"
+version = "0.1.0"
+
+[[package]]
+name = "improving-minigrep"
+version = "0.1.0"
+
+[[package]]
+name = "iterators"
+version = "0.1.0"
+
+[[package]]
+name = "lifetimes"
+version = "0.1.0"
+
+[[package]]
+name = "macros"
+version = "0.1.0"
+
+[[package]]
+name = "match-control-flow"
+version = "0.1.0"
+
+[[package]]
+name = "message-passing"
+version = "0.1.0"
+
+[[package]]
+name = "methods"
+version = "0.1.0"
+
+[[package]]
+name = "minigrep"
+version = "0.1.0"
+
+[[package]]
+name = "modules-and-scope"
+version = "0.1.0"
+
+[[package]]
+name = "packages-and-crates"
+version = "0.1.0"
+
+[[package]]
+name = "panic"
+version = "0.1.0"
+
+[[package]]
+name = "paths"
+version = "0.1.0"
+
+[[package]]
+name = "pattern-syntax"
+version = "0.1.0"
+
+[[package]]
+name = "rc-reference-counting"
+version = "0.1.0"
+
+[[package]]
+name = "refcell-interior-mutability"
+version = "0.1.0"
+
+[[package]]
+name = "reference-cycles"
+version = "0.1.0"
+
+[[package]]
+name = "references-and-borrowing"
+version = "0.1.0"
+
+[[package]]
+name = "refutability"
+version = "0.1.0"
+
+[[package]]
+name = "result"
+version = "0.1.0"
+
+[[package]]
+name = "running-tests"
+version = "0.1.0"
+
+[[package]]
+name = "send-sync"
+version = "0.1.0"
+
+[[package]]
+name = "separating-modules"
+version = "0.1.0"
+
+[[package]]
+name = "shared-state"
+version = "0.1.0"
+
+[[package]]
+name = "state-pattern"
+version = "0.1.0"
+
+[[package]]
+name = "streams"
+version = "0.1.0"
+
+[[package]]
+name = "strings"
+version = "0.1.0"
+
+[[package]]
+name = "test-organization"
+version = "0.1.0"
+
+[[package]]
+name = "the-slice-type"
+version = "0.1.0"
+
+[[package]]
+name = "threads"
+version = "0.1.0"
+
+[[package]]
+name = "trait-objects"
+version = "0.1.0"
+
+[[package]]
+name = "traits"
+version = "0.1.0"
+
+[[package]]
+name = "unsafe-rust"
+version = "0.1.0"
+
+[[package]]
+name = "use-keyword"
+version = "0.1.0"
+
+[[package]]
 name = "variables-and-mutability"
+version = "0.1.0"
+
+[[package]]
+name = "vectors"
+version = "0.1.0"
+
+[[package]]
+name = "web-server"
+version = "0.1.0"
+
+[[package]]
+name = "what-is-ownership"
+version = "0.1.0"
+
+[[package]]
+name = "when-to-panic"
+version = "0.1.0"
+
+[[package]]
+name = "working-with-futures"
+version = "0.1.0"
+
+[[package]]
+name = "workspaces"
+version = "0.1.0"
+
+[[package]]
+name = "writing-tests"
 version = "0.1.0"

@@ -1,6 +1,106 @@
 [workspace]
 resolver = "2"
 members = [
+    # Ch 2 — Programming a Guessing Game
+    "ch02-guessing-game",
+
+    # Ch 3 — Common Programming Concepts
     "ch03-common-concepts/variables-and-mutability",
     "ch03-common-concepts/data-types",
+    "ch03-common-concepts/functions",
+    "ch03-common-concepts/control-flow",
+
+    # Ch 4 — Understanding Ownership
+    "ch04-ownership/what-is-ownership",
+    "ch04-ownership/references-and-borrowing",
+    "ch04-ownership/the-slice-type",
+
+    # Ch 5 — Using Structs
+    "ch05-structs/defining-structs",
+    "ch05-structs/example-program",
+    "ch05-structs/methods",
+
+    # Ch 6 — Enums and Pattern Matching
+    "ch06-enums/defining-enums",
+    "ch06-enums/match-control-flow",
+    "ch06-enums/if-let",
+
+    # Ch 7 — Packages, Crates, and Modules
+    "ch07-packages-crates-modules/packages-and-crates",
+    "ch07-packages-crates-modules/modules-and-scope",
+    "ch07-packages-crates-modules/paths",
+    "ch07-packages-crates-modules/use-keyword",
+    "ch07-packages-crates-modules/separating-modules",
+
+    # Ch 8 — Common Collections
+    "ch08-collections/vectors",
+    "ch08-collections/strings",
+    "ch08-collections/hashmaps",
+
+    # Ch 9 — Error Handling
+    "ch09-error-handling/panic",
+    "ch09-error-handling/result",
+    "ch09-error-handling/when-to-panic",
+
+    # Ch 10 — Generic Types, Traits, and Lifetimes
+    "ch10-generics-traits-lifetimes/generics",
+    "ch10-generics-traits-lifetimes/traits",
+    "ch10-generics-traits-lifetimes/lifetimes",
+
+    # Ch 11 — Writing Automated Tests
+    "ch11-testing/writing-tests",
+    "ch11-testing/running-tests",
+    "ch11-testing/test-organization",
+
+    # Ch 12 — I/O Project: minigrep
+    "ch12-minigrep",
+
+    # Ch 13 — Closures and Iterators
+    "ch13-closures-iterators/closures",
+    "ch13-closures-iterators/iterators",
+    "ch13-closures-iterators/improving-minigrep",
+
+    # Ch 14 — More About Cargo
+    "ch14-cargo-cratesio/workspaces",
+
+    # Ch 15 — Smart Pointers
+    "ch15-smart-pointers/box-heap",
+    "ch15-smart-pointers/deref-trait",
+    "ch15-smart-pointers/drop-trait",
+    "ch15-smart-pointers/rc-reference-counting",
+    "ch15-smart-pointers/refcell-interior-mutability",
+    "ch15-smart-pointers/reference-cycles",
+
+    # Ch 16 — Fearless Concurrency
+    "ch16-concurrency/threads",
+    "ch16-concurrency/message-passing",
+    "ch16-concurrency/shared-state",
+    "ch16-concurrency/send-sync",
+
+    # Ch 17 — Async and Await
+    "ch17-async/futures-and-syntax",
+    "ch17-async/concurrency-with-async",
+    "ch17-async/working-with-futures",
+    "ch17-async/streams",
+    "ch17-async/async-traits",
+
+    # Ch 18 — OOP Features of Rust
+    "ch18-oop/characteristics-of-oo",
+    "ch18-oop/trait-objects",
+    "ch18-oop/state-pattern",
+
+    # Ch 19 — Patterns and Matching
+    "ch19-patterns/all-the-places",
+    "ch19-patterns/refutability",
+    "ch19-patterns/pattern-syntax",
+
+    # Ch 20 — Advanced Features
+    "ch20-advanced/unsafe-rust",
+    "ch20-advanced/advanced-traits",
+    "ch20-advanced/advanced-types",
+    "ch20-advanced/advanced-functions",
+    "ch20-advanced/macros",
+
+    # Ch 21 — Final Project: Web Server
+    "ch21-web-server",
 ]
