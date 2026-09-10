@@ -15,7 +15,7 @@ members = [
     "ch04-ownership/references-and-borrowing",
     "ch04-ownership/the-slice-type",
 
-    # Ch 5 — Using Structs
+    # Ch 5 — Using Structs to Structure Related Data
     "ch05-structs/defining-structs",
     "ch05-structs/example-program",
     "ch05-structs/methods",
@@ -25,7 +25,7 @@ members = [
     "ch06-enums/match-control-flow",
     "ch06-enums/if-let",
 
-    # Ch 7 — Packages, Crates, and Modules
+    # Ch 7 — Managing Growing Projects with Packages, Crates, and Modules
     "ch07-packages-crates-modules/packages-and-crates",
     "ch07-packages-crates-modules/modules-and-scope",
     "ch07-packages-crates-modules/paths",
@@ -52,15 +52,16 @@ members = [
     "ch11-testing/running-tests",
     "ch11-testing/test-organization",
 
-    # Ch 12 — I/O Project: minigrep
+    # Ch 12 — An I/O Project: Building a Command Line Program
     "ch12-minigrep",
 
-    # Ch 13 — Closures and Iterators
+    # Ch 13 — Functional Language Features: Iterators and Closures
     "ch13-closures-iterators/closures",
     "ch13-closures-iterators/iterators",
     "ch13-closures-iterators/improving-minigrep",
+    "ch13-closures-iterators/performance",
 
-    # Ch 14 — More About Cargo
+    # Ch 14 — More about Cargo and Crates.io
     "ch14-cargo-cratesio/workspaces",
 
     # Ch 15 — Smart Pointers
@@ -77,14 +78,15 @@ members = [
     "ch16-concurrency/shared-state",
     "ch16-concurrency/send-sync",
 
-    # Ch 17 — Async and Await
+    # Ch 17 — Async, Await, Futures, and Streams
     "ch17-async/futures-and-syntax",
     "ch17-async/concurrency-with-async",
     "ch17-async/working-with-futures",
     "ch17-async/streams",
     "ch17-async/async-traits",
+    "ch17-async/futures-tasks-threads",
 
-    # Ch 18 — OOP Features of Rust
+    # Ch 18 — Object-Oriented Programming Features of Rust
     "ch18-oop/characteristics-of-oo",
     "ch18-oop/trait-objects",
     "ch18-oop/state-pattern",
@@ -101,6 +103,6 @@ members = [
     "ch20-advanced/advanced-functions",
     "ch20-advanced/macros",
 
-    # Ch 21 — Final Project: Web Server
+    # Ch 21 — Final Project: Building a Multithreaded Web Server
     "ch21-web-server",
 ]
