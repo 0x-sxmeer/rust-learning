@@ -1,20 +1,37 @@
 # 🦀 Rust Learning Journey
 
-My structured path from Python developer to professional Rust developer.
+Following **"The Rust Programming Language"** by Steve Klabnik and Carol Nichols.
+Book: https://doc.rust-lang.org/book/
 
-## 📂 Structure
+## 📂 Structure (Mapped to Book Chapters)
 
-| Folder | Topic | Status |
-|--------|-------|--------|
-| `01-basics/` | Variables, mutability, types, functions | 🔄 In Progress |
-| `02-ownership/` | Ownership, borrowing, lifetimes | 📅 Planned |
-| `03-structs-enums/` | Structs, enums, pattern matching | 📅 Planned |
-| `04-error-handling/` | Result, Option, `?` operator | 📅 Planned |
-| `05-traits-generics/` | Traits, generics, trait objects | 📅 Planned |
-| `06-collections/` | Vec, HashMap, iterators | 📅 Planned |
-| `07-concurrency/` | Threads, channels, Arc/Mutex | 📅 Planned |
-| `08-async/` | async/await, tokio | 📅 Planned |
-| `09-projects/` | Real-world practice projects | 📅 Planned |
+| Folder | Book Chapter | Topics | Status |
+|--------|-------------|--------|--------|
+| `ch02-guessing-game/` | Ch 2 | First project — I/O, random, match | 📅 Planned |
+| `ch03-common-concepts/` | Ch 3 | Variables, data types, functions, control flow | 🔄 In Progress |
+| `ch04-ownership/` | Ch 4 | Ownership, borrowing, slices, lifetimes | 📅 Planned |
+| `ch05-structs/` | Ch 5 | Defining structs, methods, associated functions | 📅 Planned |
+| `ch06-enums/` | Ch 6 | Enums, Option, match, if let | 📅 Planned |
+| `ch07-modules/` | Ch 7 | mod, pub, use, crate structure | 📅 Planned |
+| `ch08-collections/` | Ch 8 | Vec, String, HashMap | 📅 Planned |
+| `ch09-error-handling/` | Ch 9 | panic!, Result, ? operator | 📅 Planned |
+| `ch10-generics-traits/` | Ch 10 | Generics, traits, lifetimes | 📅 Planned |
+| `ch11-testing/` | Ch 11 | Unit tests, integration tests | 📅 Planned |
+| `ch12-io-project/` | Ch 12 | Building a CLI program (minigrep) | 📅 Planned |
+| `projects/` | Beyond the book | Real-world practice projects | 📅 Planned |
+
+## 📝 Exercises per Chapter
+
+### Ch 3 — Common Programming Concepts
+- [x] `variables-and-mutability` — let, mut, const, shadowing
+- [ ] `data-types` — integers, floats, bools, chars, tuples, arrays
+- [ ] `functions` — parameters, return values, expressions vs statements
+- [ ] `control-flow` — if/else, loops, while, for
+
+### Ch 4 — Understanding Ownership
+- [ ] `ownership-basics` — move semantics, scope, String type
+- [ ] `references-and-borrowing` — &T, &mut T, rules of references
+- [ ] `slices` — string slices, array slices
 
 ## 🚀 How to Run
 
@@ -25,14 +42,13 @@ cd rust-learning
 
 # Run a specific exercise
 cargo run -p variables-and-mutability
+cargo run -p data-types
 
 # Run all tests
 cargo test
 
-# Lint all code
+# Lint and format
 cargo clippy --workspace
-
-# Format all code
 cargo fmt --all
 ```
 
@@ -44,4 +60,4 @@ cargo fmt --all
 
 ## 🐍 Background
 
-Coming from Python — documenting the differences and "aha moments" along the way.
+Python developer transitioning to Rust — documenting the journey chapter by chapter.
