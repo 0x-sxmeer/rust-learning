@@ -1,6 +1,5 @@
 [workspace]
 resolver = "2"
-members = [
-    "ch03-common-concepts/variables-and-mutability",
-    "ch03-common-concepts/data-types",
+members = ["01-basics/data-types",
+    "01-basics/variables-and-mutability",
 ]
